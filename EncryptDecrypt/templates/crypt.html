@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Result</title>
+<style>
+h3 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 30px;
+}
+</style>
+</head>
+<body style="background-color:GreenYellow;">
+<h3>You have entered the string  :</h3>
+<p>{{org}}</p>
+
+{% if ty == "encrypt" %}
+
+<h3>Encrypted String :</h3>
+<p>{{content}}</p>
+
+{% else %}
+
+<h3>Decrypted String :</h3>
+<p>{{content}}</p>
+
+
+{% endif %}
+
+
+</body>
+</html>
